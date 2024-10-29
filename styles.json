@@ -1,0 +1,135 @@
+[
+  {
+    "type": "style",
+    "content": "\n.css {\ncolor: red;\n}\n",
+    "loc": {
+      "start": {
+        "column": 8,
+        "line": 8,
+        "offset": 14
+      },
+      "end": {
+        "column": 1,
+        "line": 12,
+        "offset": 36
+      },
+      "source": "\n.css {\ncolor: red;\n}\n"
+    },
+    "attrs": {},
+    "map": {
+      "version": 3,
+      "sources": [
+        "anonymous.vue"
+      ],
+      "names": [],
+      "mappings": ";AAQA,CAAC,CAAC,CAAC,EAAE;AACL,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;AACV",
+      "file": "anonymous.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "\n\n\n\n\n\n\n<style>\n.css {\ncolor: red;\n}\n</style>\n\n<style module>\n.css-module {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped-nested {\ncolor: red;\n.dummy {\ncolor: green;\n}\nfont-weight: bold;\n}\n</style>"
+      ]
+    }
+  },
+  {
+    "type": "style",
+    "content": "\n.css-module {\ncolor: red;\n}\n",
+    "loc": {
+      "start": {
+        "column": 15,
+        "line": 14,
+        "offset": 60
+      },
+      "end": {
+        "column": 1,
+        "line": 18,
+        "offset": 89
+      },
+      "source": "\n.css-module {\ncolor: red;\n}\n"
+    },
+    "attrs": {
+      "module": true
+    },
+    "module": true,
+    "map": {
+      "version": 3,
+      "sources": [
+        "anonymous.vue"
+      ],
+      "names": [],
+      "mappings": ";AAcA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;AACZ,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;AACV",
+      "file": "anonymous.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "\n\n\n\n\n\n\n<style>\n.css {\ncolor: red;\n}\n</style>\n\n<style module>\n.css-module {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped-nested {\ncolor: red;\n.dummy {\ncolor: green;\n}\nfont-weight: bold;\n}\n</style>"
+      ]
+    }
+  },
+  {
+    "type": "style",
+    "content": "\n.css-scoped {\ncolor: red;\n}\n",
+    "loc": {
+      "start": {
+        "column": 15,
+        "line": 20,
+        "offset": 113
+      },
+      "end": {
+        "column": 1,
+        "line": 24,
+        "offset": 142
+      },
+      "source": "\n.css-scoped {\ncolor: red;\n}\n"
+    },
+    "attrs": {
+      "scoped": true
+    },
+    "scoped": true,
+    "map": {
+      "version": 3,
+      "sources": [
+        "anonymous.vue"
+      ],
+      "names": [],
+      "mappings": ";AAoBA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;AACZ,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;AACV",
+      "file": "anonymous.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "\n\n\n\n\n\n\n<style>\n.css {\ncolor: red;\n}\n</style>\n\n<style module>\n.css-module {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped-nested {\ncolor: red;\n.dummy {\ncolor: green;\n}\nfont-weight: bold;\n}\n</style>"
+      ]
+    }
+  },
+  {
+    "type": "style",
+    "content": "\n.css-scoped-nested {\ncolor: red;\n.dummy {\ncolor: green;\n}\nfont-weight: bold;\n}\n",
+    "loc": {
+      "start": {
+        "column": 15,
+        "line": 26,
+        "offset": 166
+      },
+      "end": {
+        "column": 1,
+        "line": 34,
+        "offset": 246
+      },
+      "source": "\n.css-scoped-nested {\ncolor: red;\n.dummy {\ncolor: green;\n}\nfont-weight: bold;\n}\n"
+    },
+    "attrs": {
+      "scoped": true
+    },
+    "scoped": true,
+    "map": {
+      "version": 3,
+      "sources": [
+        "anonymous.vue"
+      ],
+      "names": [],
+      "mappings": ";AA0BA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AACZ;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACjB",
+      "file": "anonymous.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "\n\n\n\n\n\n\n<style>\n.css {\ncolor: red;\n}\n</style>\n\n<style module>\n.css-module {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped {\ncolor: red;\n}\n</style>\n\n<style scoped>\n.css-scoped-nested {\ncolor: red;\n.dummy {\ncolor: green;\n}\nfont-weight: bold;\n}\n</style>"
+      ]
+    }
+  }
+]

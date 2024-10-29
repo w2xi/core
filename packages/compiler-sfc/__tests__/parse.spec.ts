@@ -7,6 +7,12 @@ import {
 } from '@vue/compiler-core'
 import { SourceMapConsumer } from 'source-map-js'
 
+import fs from 'node:fs'
+
+const save2File = (data: any, filename: string) => {
+  fs.writeFileSync(filename, JSON.stringify(data, null, 2))
+}
+
 describe('compiler:sfc', () => {
   describe('source map', () => {
     test('style block', () => {
@@ -44,6 +50,8 @@ font-weight: bold;
       const {
         descriptor: { styles },
       } = parse(src)
+
+      save2File(styles, 'styles.json')
 
       expect(styles[0].map).not.toBeUndefined()
       const consumer = new SourceMapConsumer(styles[0].map!)
